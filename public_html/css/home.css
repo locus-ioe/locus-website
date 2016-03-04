@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lato';
+}
+
+a, a:visited, a:hover, a:focus{
+    outline: none;
+    text-decoration: none;
+}
+
+.fa{
+    margin-right: 10px;
+}
+
+#title-block{
+    background-color: #2980b9;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0px;
+}
+#title-block h1{
+    font-size: 5em;
+}
+#title-block .extra{
+    margin-top: 20px;
+    text-align: right;
+}
+#title-block .extra a{
+    margin-left: 30px;
+    color: #fff;
+}
+
+#temp-msg{
+    margin-top: 50px;
+    color: #969696;
+    font-size: 7em;
+    font-weight: 100;
+    text-align: center;
+}
