@@ -12,17 +12,21 @@ a, a:visited, a:hover, a:focus{
 }
 
 #title-block{
-    background-color: #2980b9;
+    background-color: #2c3e60;
     color: #f0f0f0;
     text-align: center;
-    padding: 20px 0px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 #title-block h1{
     font-size: 5em;
 }
 #title-block .extra{
-    margin-top: 20px;
-    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
 }
 #title-block .extra a{
     margin-left: 30px;
@@ -30,9 +34,9 @@ a, a:visited, a:hover, a:focus{
 }
 
 #temp-msg{
-    margin-top: 50px;
-    color: #969696;
-    font-size: 7em;
+    margin-top: 30px;
+    color: #2c3e60;
+    font-size: 8em;
     font-weight: 100;
     text-align: center;
 }

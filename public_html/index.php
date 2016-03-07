@@ -18,7 +18,7 @@
     </div>
     <div id="content-block">
         <div class="container">
-            <p id="temp-msg">Comming Soon!</p>
+            <p id="temp-msg">Coming Soon!</p>
         </div>
     </div>
 </body>
